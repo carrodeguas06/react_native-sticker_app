@@ -1,5 +1,4 @@
 import { Text, View, StyleSheet } from 'react-native';
-import Index from '.';
 
 const AboutScreen = () => (
     <View style={styles.container}>
