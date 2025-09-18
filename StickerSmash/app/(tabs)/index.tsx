@@ -74,7 +74,7 @@ const Index = () =>{
         </View>
       )}
       <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
-       <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
+      <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
       </EmojiPicker>
     </View>
   );}
